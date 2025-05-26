@@ -1,0 +1,711 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 32;
+	objects = {
+		00DE7D46FFC58FD1A6466313 = {
+			isa = PBXFileReference;
+			path = Skeleton_d.rsrc;
+			refType = 2;
+		};
+		00DE7D47FFC58FD1A6466313 = {
+			fileRef = 00DE7D46FFC58FD1A6466313;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		00DE7D48FFC5902CA6466313 = {
+			isa = PBXFileReference;
+			path = MSkeleton.cpp;
+			refType = 4;
+		};
+		00DE7D49FFC5902CA6466313 = {
+			isa = PBXFileReference;
+			path = UApplicationSkeleton.cpp;
+			refType = 4;
+		};
+		00DE7D4AFFC5902CA6466313 = {
+			isa = PBXFileReference;
+			path = UApplicationSkeleton.h;
+			refType = 4;
+		};
+		00DE7D4BFFC5902CA6466313 = {
+			isa = PBXFileReference;
+			path = UCommandSkeleton.cpp;
+			refType = 4;
+		};
+		00DE7D4CFFC5902CA6466313 = {
+			isa = PBXFileReference;
+			path = UCommandSkeleton.h;
+			refType = 4;
+		};
+		00DE7D4DFFC5902CA6466313 = {
+			isa = PBXFileReference;
+			path = UDocumentSkeleton.cpp;
+			refType = 4;
+		};
+		00DE7D4EFFC5902CA6466313 = {
+			isa = PBXFileReference;
+			path = UDocumentSkeleton.h;
+			refType = 4;
+		};
+		00DE7D4FFFC5902CA6466313 = {
+			isa = PBXFileReference;
+			path = UTrackerSkeleton.cpp;
+			refType = 4;
+		};
+		00DE7D50FFC5902CA6466313 = {
+			isa = PBXFileReference;
+			path = UTrackerSkeleton.h;
+			refType = 4;
+		};
+		00DE7D51FFC5902CA6466313 = {
+			isa = PBXFileReference;
+			path = UViewSkeleton.cpp;
+			refType = 4;
+		};
+		00DE7D52FFC5902CA6466313 = {
+			isa = PBXFileReference;
+			path = UViewSkeleton.h;
+			refType = 4;
+		};
+		00DE7D53FFC5902CA6466313 = {
+			fileRef = 00DE7D4AFFC5902CA6466313;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		00DE7D54FFC5902CA6466313 = {
+			fileRef = 00DE7D4CFFC5902CA6466313;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		00DE7D55FFC5902CA6466313 = {
+			fileRef = 00DE7D4EFFC5902CA6466313;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		00DE7D56FFC5902CA6466313 = {
+			fileRef = 00DE7D50FFC5902CA6466313;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		00DE7D57FFC5902CA6466313 = {
+			fileRef = 00DE7D52FFC5902CA6466313;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		00DE7D58FFC5902CA6466313 = {
+			fileRef = 00DE7D48FFC5902CA6466313;
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+				);
+			};
+		};
+		00DE7D59FFC5902CA6466313 = {
+			fileRef = 00DE7D49FFC5902CA6466313;
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+				);
+			};
+		};
+		00DE7D5AFFC5902CA6466313 = {
+			fileRef = 00DE7D4BFFC5902CA6466313;
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+				);
+			};
+		};
+		00DE7D5BFFC5902CA6466313 = {
+			fileRef = 00DE7D4DFFC5902CA6466313;
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+				);
+			};
+		};
+		00DE7D5CFFC5902CA6466313 = {
+			fileRef = 00DE7D4FFFC5902CA6466313;
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+				);
+			};
+		};
+		00DE7D5DFFC5902CA6466313 = {
+			fileRef = 00DE7D51FFC5902CA6466313;
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+				);
+			};
+		};
+		00F28457FFD593497F000001 = {
+			buildRules = (
+			);
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			isa = PBXBuildStyle;
+			name = Development;
+		};
+		00F28458FFD593497F000001 = {
+			buildRules = (
+			);
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+			};
+			isa = PBXBuildStyle;
+			name = Deployment;
+		};
+		00F5B0E7FFB8C259A6466313 = {
+			isa = PBXFileReference;
+			name = libMacApp_d.a;
+			path = ../../MALibraries/build/libMacApp_d.a;
+			refType = 2;
+		};
+		00F5B0E8FFB8C259A6466313 = {
+			fileRef = 00F5B0E7FFB8C259A6466313;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+//000
+//001
+//002
+//003
+//004
+//020
+//021
+//022
+//023
+//024
+		0249A665FF388DC511CA2CEA = {
+			isa = PBXApplicationReference;
+			path = "Skeleton debug.app";
+			refType = 3;
+		};
+		0249A669FF388E3911CA2CEA = {
+			isa = PBXFileReference;
+			name = "libstdc++.a";
+			path = "/usr/lib/libstdc++.a";
+			refType = 0;
+		};
+		0249A66AFF388E3911CA2CEA = {
+			fileRef = 0249A669FF388E3911CA2CEA;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+//020
+//021
+//022
+//023
+//024
+//040
+//041
+//042
+//043
+//044
+		04313892FE3035C9C02AAC07 = {
+			buildActionMask = 2147483647;
+			files = (
+				00DE7D47FFC58FD1A6466313,
+			);
+			isa = PBXRezBuildPhase;
+			name = "ResourceManager Resources";
+		};
+//040
+//041
+//042
+//043
+//044
+//080
+//081
+//082
+//083
+//084
+		0867D6AAFE840B52C02AAC07 = {
+			children = (
+				0867D6ABFE840B52C02AAC07,
+			);
+			isa = PBXVariantGroup;
+			name = InfoPlist.strings;
+			refType = 4;
+		};
+		0867D6ABFE840B52C02AAC07 = {
+			isa = PBXFileReference;
+			name = English;
+			path = English.lproj/InfoPlist.strings;
+			refType = 4;
+		};
+		0867D6ACFE840B52C02AAC07 = {
+			fileRef = 0867D6AAFE840B52C02AAC07;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+//080
+//081
+//082
+//083
+//084
+//190
+//191
+//192
+//193
+//194
+		195DF8C9FE9D4F0611CA2CBB = {
+			children = (
+				0249A665FF388DC511CA2CEA,
+				F5FEE45D00B5F73E01000001,
+			);
+			isa = PBXGroup;
+			name = Products;
+			refType = 4;
+		};
+//190
+//191
+//192
+//193
+//194
+//200
+//201
+//202
+//203
+//204
+		20286C28FDCF999611CA2CEA = {
+			buildStyles = (
+				00F28457FFD593497F000001,
+				00F28458FFD593497F000001,
+			);
+			isa = PBXProject;
+			mainGroup = 20286C29FDCF999611CA2CEA;
+			projectDirPath = "";
+			targets = (
+				20286C34FDCF999611CA2CEA,
+				F5FEE45E00B5F73E01000001,
+			);
+		};
+		20286C29FDCF999611CA2CEA = {
+			children = (
+				F5FEE46500B5F76801000001,
+				20286C2AFDCF999611CA2CEA,
+				20286C2CFDCF999611CA2CEA,
+				20286C32FDCF999611CA2CEA,
+				195DF8C9FE9D4F0611CA2CBB,
+			);
+			isa = PBXGroup;
+			name = Skeleton;
+			path = "";
+			refType = 4;
+		};
+		20286C2AFDCF999611CA2CEA = {
+			children = (
+				00DE7D48FFC5902CA6466313,
+				00DE7D49FFC5902CA6466313,
+				00DE7D4AFFC5902CA6466313,
+				00DE7D4BFFC5902CA6466313,
+				00DE7D4CFFC5902CA6466313,
+				00DE7D4DFFC5902CA6466313,
+				00DE7D4EFFC5902CA6466313,
+				00DE7D4FFFC5902CA6466313,
+				00DE7D50FFC5902CA6466313,
+				00DE7D51FFC5902CA6466313,
+				00DE7D52FFC5902CA6466313,
+			);
+			isa = PBXGroup;
+			name = Sources;
+			path = ../../../../MacApp/Examples/Skeleton;
+			refType = 2;
+		};
+		20286C2CFDCF999611CA2CEA = {
+			children = (
+				0867D6AAFE840B52C02AAC07,
+				00DE7D46FFC58FD1A6466313,
+			);
+			isa = PBXGroup;
+			name = Resources;
+			path = "";
+			refType = 4;
+		};
+		20286C32FDCF999611CA2CEA = {
+			children = (
+				20286C33FDCF999611CA2CEA,
+				0249A669FF388E3911CA2CEA,
+				00F5B0E7FFB8C259A6466313,
+				F5FEE47600B5F7C401000001,
+			);
+			isa = PBXGroup;
+			name = "External Frameworks and Libraries";
+			path = "";
+			refType = 4;
+		};
+		20286C33FDCF999611CA2CEA = {
+			isa = PBXFrameworkReference;
+			name = Carbon.framework;
+			path = /System/Library/Frameworks/Carbon.framework;
+			refType = 0;
+		};
+		20286C34FDCF999611CA2CEA = {
+			buildPhases = (
+				20286C35FDCF999611CA2CEA,
+				20286C36FDCF999611CA2CEA,
+				20286C38FDCF999611CA2CEA,
+				20286C3BFDCF999611CA2CEA,
+				04313892FE3035C9C02AAC07,
+			);
+			buildSettings = {
+				DEPLOYMENT_OPTIMIZATION_CFLAGS = "";
+				FRAMEWORK_SEARCH_PATHS = "";
+				HEADER_SEARCH_PATHS = "../../MALibraries/includes/ /Developer/Headers/FlatCarbon/";
+				IMPLICITLY_INCLUDED_HEADERS = ../../MALibraries/MacAppPrefix_d.h;
+				LIBRARY_SEARCH_PATHS = ../../MALibraries/build/;
+				OPTIMIZATION_CFLAGS = "";
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "Skeleton debug";
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = "-Wmost -Wno-four-char-constants -Wno-unknown-pragmas";
+				WRAPPER_EXTENSION = app;
+			};
+			dependencies = (
+			);
+			isa = PBXApplicationTarget;
+			name = "Skeleton debug";
+			productName = Skeleton;
+			productReference = 0249A665FF388DC511CA2CEA;
+			productSettingsXML = "<?xml version=\"1.0\" encoding=\"UTF-8\"?>
+<!DOCTYPE plist SYSTEM \"file://localhost/System/Library/DTDs/PropertyList.dtd\">
+<plist version=\"0.9\">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>English</string>
+	<key>CFBundleExecutable</key>
+	<string>Skeleton debug</string>
+	<key>CFBundleGetInfoString</key>
+	<string>An example of a MacApp application.</string>
+	<key>CFBundleIconFile</key>
+	<string></string>
+	<key>CFBundleIdentifier</key>
+	<string>com.apple.macapp.Skeleton</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>Skeleton</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>15.0.2</string>
+	<key>CFBundleSignature</key>
+	<string>SS02</string>
+	<key>CFBundleVersion</key>
+	<string>15.0.2</string>
+</dict>
+</plist>
+";
+			shouldUseHeadermap = 1;
+		};
+		20286C35FDCF999611CA2CEA = {
+			buildActionMask = 2147483647;
+			files = (
+				00DE7D53FFC5902CA6466313,
+				00DE7D54FFC5902CA6466313,
+				00DE7D55FFC5902CA6466313,
+				00DE7D56FFC5902CA6466313,
+				00DE7D57FFC5902CA6466313,
+			);
+			isa = PBXHeadersBuildPhase;
+			name = Headers;
+		};
+		20286C36FDCF999611CA2CEA = {
+			buildActionMask = 2147483647;
+			files = (
+				0867D6ACFE840B52C02AAC07,
+			);
+			isa = PBXResourcesBuildPhase;
+			name = "Bundle Resources";
+		};
+		20286C38FDCF999611CA2CEA = {
+			buildActionMask = 2147483647;
+			files = (
+				00DE7D58FFC5902CA6466313,
+				00DE7D59FFC5902CA6466313,
+				00DE7D5AFFC5902CA6466313,
+				00DE7D5BFFC5902CA6466313,
+				00DE7D5CFFC5902CA6466313,
+				00DE7D5DFFC5902CA6466313,
+			);
+			isa = PBXSourcesBuildPhase;
+			name = Sources;
+		};
+		20286C3BFDCF999611CA2CEA = {
+			buildActionMask = 2147483647;
+			files = (
+				00F5B0E8FFB8C259A6466313,
+				20286C3CFDCF999611CA2CEA,
+				0249A66AFF388E3911CA2CEA,
+			);
+			isa = PBXFrameworksBuildPhase;
+			name = "Frameworks & Libraries";
+		};
+		20286C3CFDCF999611CA2CEA = {
+			fileRef = 20286C33FDCF999611CA2CEA;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+//200
+//201
+//202
+//203
+//204
+//F50
+//F51
+//F52
+//F53
+//F54
+		F5FEE45D00B5F73E01000001 = {
+			isa = PBXApplicationReference;
+			path = Skeleton.app;
+			refType = 3;
+		};
+		F5FEE45E00B5F73E01000001 = {
+			buildPhases = (
+				F5FEE45F00B5F73E01000001,
+				F5FEE46000B5F73E01000001,
+				F5FEE46100B5F73E01000001,
+				F5FEE46200B5F73E01000001,
+				F5FEE46300B5F73E01000001,
+			);
+			buildSettings = {
+				DEBUGGING_SYMBOLS = NO;
+				HEADER_SEARCH_PATHS = "../../MALibraries/includes/ /Developer/Headers/FlatCarbon/";
+				IMPLICITLY_INCLUDED_HEADERS = ../../MALibraries/MacAppPrefix_n.h;
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "/usr/lib/gcc/darwin/2.95.2 ../../MALibraries/build/";
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = Skeleton;
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = "-Wmost -Wno-four-char-constants -Wno-unknown-pragmas";
+				WRAPPER_EXTENSION = app;
+			};
+			dependencies = (
+			);
+			isa = PBXApplicationTarget;
+			name = "Skeleton final";
+			productInstallPath = "";
+			productName = "Skeleton final";
+			productReference = F5FEE45D00B5F73E01000001;
+			productSettingsXML = "<?xml version=\"1.0\" encoding=\"UTF-8\"?>
+<!DOCTYPE plist SYSTEM \"file://localhost/System/Library/DTDs/PropertyList.dtd\">
+<plist version=\"0.9\">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>English</string>
+	<key>CFBundleExecutable</key>
+	<string>Skeleton</string>
+	<key>CFBundleGetInfoString</key>
+	<string>An example of a MacApp application.</string>
+	<key>CFBundleIconFile</key>
+	<string></string>
+	<key>CFBundleIdentifier</key>
+	<string>com.apple.macapp.Skeleton</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>Skeleton</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>15.0.2</string>
+	<key>CFBundleSignature</key>
+	<string>SS02</string>
+	<key>CFBundleVersion</key>
+	<string>15.0.2</string>
+</dict>
+</plist>
+";
+			shouldUseHeadermap = 0;
+		};
+		F5FEE45F00B5F73E01000001 = {
+			buildActionMask = 2147483647;
+			files = (
+				F5FEE46600B5F76801000001,
+				F5FEE46700B5F76801000001,
+				F5FEE46800B5F76801000001,
+				F5FEE46900B5F76801000001,
+				F5FEE46A00B5F76801000001,
+				F5FEE46B00B5F76801000001,
+			);
+			isa = PBXHeadersBuildPhase;
+			name = Headers;
+		};
+		F5FEE46000B5F73E01000001 = {
+			buildActionMask = 2147483647;
+			files = (
+				F5FEE46C00B5F76801000001,
+			);
+			isa = PBXResourcesBuildPhase;
+			name = "Bundle Resources";
+		};
+		F5FEE46100B5F73E01000001 = {
+			buildActionMask = 2147483647;
+			files = (
+				F5FEE46D00B5F76801000001,
+				F5FEE46E00B5F76801000001,
+				F5FEE46F00B5F76801000001,
+				F5FEE47000B5F76801000001,
+				F5FEE47100B5F76801000001,
+				F5FEE47200B5F76801000001,
+			);
+			isa = PBXSourcesBuildPhase;
+			name = Sources;
+		};
+		F5FEE46200B5F73E01000001 = {
+			buildActionMask = 2147483647;
+			files = (
+				F5FEE47300B5F76801000001,
+				F5FEE47400B5F76801000001,
+				F5FEE47700B5F7C401000001,
+			);
+			isa = PBXFrameworksBuildPhase;
+			name = "Frameworks & Libraries";
+		};
+		F5FEE46300B5F73E01000001 = {
+			buildActionMask = 2147483647;
+			files = (
+				F5FEE47500B5F76801000001,
+			);
+			isa = PBXRezBuildPhase;
+			name = "ResourceManager Resources";
+		};
+		F5FEE46500B5F76801000001 = {
+			isa = PBXFileReference;
+			name = MacAppPrefix_n.h;
+			path = ../../MALibraries/MacAppPrefix_n.h;
+			refType = 2;
+		};
+		F5FEE46600B5F76801000001 = {
+			fileRef = F5FEE46500B5F76801000001;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F5FEE46700B5F76801000001 = {
+			fileRef = 00DE7D4AFFC5902CA6466313;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F5FEE46800B5F76801000001 = {
+			fileRef = 00DE7D4CFFC5902CA6466313;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F5FEE46900B5F76801000001 = {
+			fileRef = 00DE7D4EFFC5902CA6466313;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F5FEE46A00B5F76801000001 = {
+			fileRef = 00DE7D50FFC5902CA6466313;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F5FEE46B00B5F76801000001 = {
+			fileRef = 00DE7D52FFC5902CA6466313;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F5FEE46C00B5F76801000001 = {
+			fileRef = 0867D6AAFE840B52C02AAC07;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F5FEE46D00B5F76801000001 = {
+			fileRef = 00DE7D48FFC5902CA6466313;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F5FEE46E00B5F76801000001 = {
+			fileRef = 00DE7D49FFC5902CA6466313;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F5FEE46F00B5F76801000001 = {
+			fileRef = 00DE7D4BFFC5902CA6466313;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F5FEE47000B5F76801000001 = {
+			fileRef = 00DE7D4DFFC5902CA6466313;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F5FEE47100B5F76801000001 = {
+			fileRef = 00DE7D4FFFC5902CA6466313;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F5FEE47200B5F76801000001 = {
+			fileRef = 00DE7D51FFC5902CA6466313;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F5FEE47300B5F76801000001 = {
+			fileRef = 20286C33FDCF999611CA2CEA;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F5FEE47400B5F76801000001 = {
+			fileRef = 0249A669FF388E3911CA2CEA;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F5FEE47500B5F76801000001 = {
+			fileRef = 00DE7D46FFC58FD1A6466313;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F5FEE47600B5F7C401000001 = {
+			isa = PBXFileReference;
+			name = libMacApp.a;
+			path = ../../MALibraries/build/libMacApp.a;
+			refType = 2;
+		};
+		F5FEE47700B5F7C401000001 = {
+			fileRef = F5FEE47600B5F7C401000001;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+	};
+	rootObject = 20286C28FDCF999611CA2CEA;
+}

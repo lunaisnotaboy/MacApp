@@ -1,0 +1,1 @@
+// MacApp.lib.r// Copyright © 1986-2001 by Apple Computer, Inc. All rights reserved.// For building MacApp.lib.¹.rsrc/*	Change History		01/02/01	Update copyright.		03/24/99	Update copyright notice.*/// ¥ Auto-Include the requirements for this source// ¥ Resources

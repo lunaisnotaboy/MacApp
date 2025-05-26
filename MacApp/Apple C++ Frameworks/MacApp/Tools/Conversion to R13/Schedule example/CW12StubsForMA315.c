@@ -1,0 +1,1 @@
+// CW12Stubs.c// This file is used with the pre-built MacApp 3.1.5 library, and// is not necessary if that library is rebuilt under CW12.long _Randseed;long _Stderr;

@@ -1,0 +1,1 @@
+		07/13/97	dxc		Minor cleanup.  Include MacAppTypes.r correctly (first and no Typers.r since that is in MacAppTypes.r)// MacAppTypes.r must be first#ifndef __MacAppTypes__#include "MacAppTypes.r"#endifinclude $$Shell("ObjApp")$$Shell("XAppName") 'DATA';

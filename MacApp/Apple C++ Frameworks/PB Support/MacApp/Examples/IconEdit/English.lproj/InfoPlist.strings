@@ -1,0 +1,5 @@
+/* Localized versions of Info.plist keys */
+
+CFBundleName = "IconEdit";
+CFBundleShortVersionString = "IconEdit version 0.1";
+CFBundleGetInfoString = "IconEdit version 0.1, Copyright 2001 MyGreatSoftware.";

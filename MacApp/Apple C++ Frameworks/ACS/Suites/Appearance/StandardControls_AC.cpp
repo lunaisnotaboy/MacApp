@@ -1,0 +1,1 @@
+// StandardControls_AC.cp// Copyright © 1996-2001 by Apple Computer, Inc. All rights reserved. // Portions Copyright ©1996 by Trygve Isaacson./*	Change History		01/02/01	Update copyright.		03/24/99	Update copyright notice.*/#ifndef __StandardControls_AC__#include "StandardControls_AC.h"#endif// Contents split out.

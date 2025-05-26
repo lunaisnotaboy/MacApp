@@ -1,0 +1,1 @@
+// Define your compile switches in here.// Note: For use with Source Sync do not leave this file blank or it won't get copied over to// your Windows machine.

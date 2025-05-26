@@ -1,0 +1,5 @@
+/* Localized versions of Info.plist keys */
+
+CFBundleName = "Nothing";
+CFBundleShortVersionString = "Nothing version 0.1";
+CFBundleGetInfoString = "Nothing version 0.1, Copyright 2000 MyGreatSoftware.";

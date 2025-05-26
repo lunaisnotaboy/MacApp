@@ -1,0 +1,5 @@
+/* Localized versions of Info.plist keys */
+
+CFBundleName = "DemoWaste";
+CFBundleShortVersionString = "DemoWaste version 15.0.0d2";
+CFBundleGetInfoString = "DemoWaste version 15.0.0d2, Copyright 2000 Apple Computer, Inc.";

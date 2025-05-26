@@ -1,0 +1,432 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 32;
+	objects = {
+		00F6FCD7001FB1F8A6466313 = {
+			isa = PBXFileReference;
+			name = MMyApplication.cpp;
+			path = "../Grayscale Appearance Views/MMyApplication.cpp";
+			refType = 4;
+		};
+		00F6FCD8001FB1F8A6466313 = {
+			isa = PBXFileReference;
+			name = MyConstants.h;
+			path = "../Grayscale Appearance Views/MyConstants.h";
+			refType = 4;
+		};
+		00F6FCD9001FB1F8A6466313 = {
+			isa = PBXFileReference;
+			name = UMyApplication.cpp;
+			path = "../Grayscale Appearance Views/UMyApplication.cpp";
+			refType = 4;
+		};
+		00F6FCDA001FB1F8A6466313 = {
+			isa = PBXFileReference;
+			name = UMyApplication.h;
+			path = "../Grayscale Appearance Views/UMyApplication.h";
+			refType = 4;
+		};
+		00F6FCDB001FB1F8A6466313 = {
+			isa = PBXFileReference;
+			name = UMyDocument.cpp;
+			path = "../Grayscale Appearance Views/UMyDocument.cpp";
+			refType = 4;
+		};
+		00F6FCDC001FB1F8A6466313 = {
+			isa = PBXFileReference;
+			name = UMyDocument.h;
+			path = "../Grayscale Appearance Views/UMyDocument.h";
+			refType = 4;
+		};
+		00F6FCDD001FB1F8A6466313 = {
+			isa = PBXFileReference;
+			name = UPlacardAdorner.cpp;
+			path = "../Grayscale Appearance Views/UPlacardAdorner.cpp";
+			refType = 4;
+		};
+		00F6FCDE001FB1F8A6466313 = {
+			isa = PBXFileReference;
+			name = UPlacardAdorner.h;
+			path = "../Grayscale Appearance Views/UPlacardAdorner.h";
+			refType = 4;
+		};
+		00F6FCDF001FB1F8A6466313 = {
+			isa = PBXFileReference;
+			name = UWindowHeaderAdorner.cpp;
+			path = "../Grayscale Appearance Views/UWindowHeaderAdorner.cpp";
+			refType = 4;
+		};
+		00F6FCE0001FB1F8A6466313 = {
+			isa = PBXFileReference;
+			name = UWindowHeaderAdorner.h;
+			path = "../Grayscale Appearance Views/UWindowHeaderAdorner.h";
+			refType = 4;
+		};
+		00F6FCE1001FB1F8A6466313 = {
+			isa = PBXFileReference;
+			name = AppearanceViews.rsrc;
+			path = "../../../../../../MacApp/Examples/A-Z/Appearance/Grayscale Appearance Views/AppearanceViews.rsrc";
+			refType = 2;
+		};
+		00F6FCE3001FB1F8A6466313 = {
+			isa = PBXFileReference;
+			name = MyApplication.view;
+			path = "../../../../../../MacApp/Examples/A-Z/Appearance/Grayscale Appearance Views/MyApplication.view";
+			refType = 2;
+		};
+		00F6FCE4001FB1F8A6466313 = {
+			fileRef = 00F6FCD8001FB1F8A6466313;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		00F6FCE5001FB1F8A6466313 = {
+			fileRef = 00F6FCDA001FB1F8A6466313;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		00F6FCE6001FB1F8A6466313 = {
+			fileRef = 00F6FCDC001FB1F8A6466313;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		00F6FCE7001FB1F8A6466313 = {
+			fileRef = 00F6FCDE001FB1F8A6466313;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		00F6FCE8001FB1F8A6466313 = {
+			fileRef = 00F6FCE0001FB1F8A6466313;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		00F6FCE9001FB1F8A6466313 = {
+			fileRef = 00F6FCE3001FB1F8A6466313;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		00F6FCEA001FB1F8A6466313 = {
+			fileRef = 00F6FCD7001FB1F8A6466313;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		00F6FCEB001FB1F8A6466313 = {
+			fileRef = 00F6FCD9001FB1F8A6466313;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		00F6FCEC001FB1F8A6466313 = {
+			fileRef = 00F6FCDB001FB1F8A6466313;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		00F6FCED001FB1F8A6466313 = {
+			fileRef = 00F6FCDD001FB1F8A6466313;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		00F6FCEE001FB1F8A6466313 = {
+			fileRef = 00F6FCDF001FB1F8A6466313;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		00F6FCEF001FB1F8A6466313 = {
+			fileRef = 00F6FCE1001FB1F8A6466313;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		00F6FCF2001FB24BA6466313 = {
+			isa = PBXFileReference;
+			name = libMacApp_d.a;
+			path = ../../../../MALibraries/build/libMacApp_d.a;
+			refType = 2;
+		};
+		00F6FCF4001FB24CA6466313 = {
+			fileRef = 00F6FCF2001FB24BA6466313;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		00F6FCF5001FBF6AA6466313 = {
+			isa = PBXFileReference;
+			path = MoreAppearance.rsrc;
+			refType = 2;
+		};
+		00F6FCF6001FBF6AA6466313 = {
+			fileRef = 00F6FCF5001FBF6AA6466313;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		00F6FCF7001FC00BA6466313 = {
+			fileRef = 00F6FCE3001FB1F8A6466313;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		0249A665FF388DC511CA2CEA = {
+			isa = PBXApplicationReference;
+			path = "Grayscale Appearance.app";
+			refType = 3;
+		};
+		0249A669FF388E3911CA2CEA = {
+			isa = PBXFileReference;
+			name = "libstdc++.a";
+			path = "/usr/lib/libstdc++.a";
+			refType = 0;
+		};
+		0249A66AFF388E3911CA2CEA = {
+			fileRef = 0249A669FF388E3911CA2CEA;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		04313892FE3035C9C02AAC07 = {
+			buildActionMask = 2147483647;
+			files = (
+				00F6FCEF001FB1F8A6466313,
+				00F6FCF7001FC00BA6466313,
+				00F6FCF6001FBF6AA6466313,
+			);
+			isa = PBXRezBuildPhase;
+			name = "ResourceManager Resources";
+		};
+		05952DFCFFF02D1B11CA0E50 = {
+			buildRules = (
+			);
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			isa = PBXBuildStyle;
+			name = Development;
+		};
+		05952DFDFFF02D1B11CA0E50 = {
+			buildRules = (
+			);
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+			};
+			isa = PBXBuildStyle;
+			name = Deployment;
+		};
+		0867D6AAFE840B52C02AAC07 = {
+			children = (
+				0867D6ABFE840B52C02AAC07,
+			);
+			isa = PBXVariantGroup;
+			name = InfoPlist.strings;
+			refType = 4;
+		};
+		0867D6ABFE840B52C02AAC07 = {
+			fileEncoding = 10;
+			isa = PBXFileReference;
+			name = English;
+			path = English.lproj/InfoPlist.strings;
+			refType = 4;
+		};
+		0867D6ACFE840B52C02AAC07 = {
+			fileRef = 0867D6AAFE840B52C02AAC07;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		195DF8C9FE9D4F0611CA2CBB = {
+			children = (
+				0249A665FF388DC511CA2CEA,
+			);
+			isa = PBXGroup;
+			name = Products;
+			refType = 4;
+		};
+		20286C28FDCF999611CA2CEA = {
+			buildStyles = (
+				05952DFCFFF02D1B11CA0E50,
+				05952DFDFFF02D1B11CA0E50,
+			);
+			isa = PBXProject;
+			mainGroup = 20286C29FDCF999611CA2CEA;
+			targets = (
+				20286C34FDCF999611CA2CEA,
+			);
+		};
+		20286C29FDCF999611CA2CEA = {
+			children = (
+				20286C2AFDCF999611CA2CEA,
+				20286C2CFDCF999611CA2CEA,
+				20286C32FDCF999611CA2CEA,
+				195DF8C9FE9D4F0611CA2CBB,
+			);
+			isa = PBXGroup;
+			name = "Grayscale Appearance";
+			path = "";
+			refType = 4;
+		};
+		20286C2AFDCF999611CA2CEA = {
+			children = (
+				00F6FCD7001FB1F8A6466313,
+				00F6FCD8001FB1F8A6466313,
+				00F6FCD9001FB1F8A6466313,
+				00F6FCDA001FB1F8A6466313,
+				00F6FCDB001FB1F8A6466313,
+				00F6FCDC001FB1F8A6466313,
+				00F6FCDD001FB1F8A6466313,
+				00F6FCDE001FB1F8A6466313,
+				00F6FCDF001FB1F8A6466313,
+				00F6FCE0001FB1F8A6466313,
+			);
+			isa = PBXGroup;
+			name = Sources;
+			path = "../../../../../../MacApp/Examples/A-Z/Appearance/Grayscale Appearance Views";
+			refType = 2;
+		};
+		20286C2CFDCF999611CA2CEA = {
+			children = (
+				0867D6AAFE840B52C02AAC07,
+				00F6FCE1001FB1F8A6466313,
+				00F6FCE3001FB1F8A6466313,
+				00F6FCF5001FBF6AA6466313,
+			);
+			isa = PBXGroup;
+			name = Resources;
+			path = "";
+			refType = 4;
+		};
+		20286C32FDCF999611CA2CEA = {
+			children = (
+				20286C33FDCF999611CA2CEA,
+				0249A669FF388E3911CA2CEA,
+				00F6FCF2001FB24BA6466313,
+			);
+			isa = PBXGroup;
+			name = "External Frameworks and Libraries";
+			path = "";
+			refType = 4;
+		};
+		20286C33FDCF999611CA2CEA = {
+			isa = PBXFrameworkReference;
+			name = Carbon.framework;
+			path = /System/Library/Frameworks/Carbon.framework;
+			refType = 0;
+		};
+		20286C34FDCF999611CA2CEA = {
+			buildPhases = (
+				20286C35FDCF999611CA2CEA,
+				20286C36FDCF999611CA2CEA,
+				20286C38FDCF999611CA2CEA,
+				20286C3BFDCF999611CA2CEA,
+				04313892FE3035C9C02AAC07,
+			);
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = "";
+				HEADER_SEARCH_PATHS = "../../../../MALibraries/includes/ /Developer/Headers/FlatCarbon";
+				LIBRARY_SEARCH_PATHS = ../../../../MALibraries/build/;
+				OPTIMIZATION_CFLAGS = "";
+				OTHER_CFLAGS = "-include ../../../../MALibraries/MacAppPrefix_d.h";
+				OTHER_LDFLAGS = "";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "Grayscale Appearance";
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = "-Wmost -Wno-four-char-constants -Wno-unknown-pragmas";
+				WRAPPER_EXTENSION = app;
+			};
+			conditionalBuildSettings = {
+			};
+			dependencies = (
+			);
+			isa = PBXApplicationTarget;
+			name = "Grayscale Appearance";
+			productName = "Grayscale Appearance";
+			productReference = 0249A665FF388DC511CA2CEA;
+			productSettingsXML = "<?xml version=\"1.0\" encoding=\"UTF-8\"?>
+<!DOCTYPE plist SYSTEM \"file://localhost/System/Library/DTDs/PropertyList.dtd\">
+<plist version=\"0.9\">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>English</string>
+	<key>CFBundleExecutable</key>
+	<string>Grayscale Appearance</string>
+	<key>CFBundleIconFile</key>
+	<string></string>
+	<key>CFBundleIdentifier</key>
+	<string>com.apple.macapp.GrayscaleViews</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleSignature</key>
+	<string>SS16</string>
+	<key>CFBundleVersion</key>
+	<string>0.1</string>
+	<key>CSResourcesFileMapped</key>
+	<true/>
+</dict>
+</plist>
+";
+			shouldUseHeadermap = 1;
+		};
+		20286C35FDCF999611CA2CEA = {
+			buildActionMask = 2147483647;
+			files = (
+				00F6FCE4001FB1F8A6466313,
+				00F6FCE5001FB1F8A6466313,
+				00F6FCE6001FB1F8A6466313,
+				00F6FCE7001FB1F8A6466313,
+				00F6FCE8001FB1F8A6466313,
+			);
+			isa = PBXHeadersBuildPhase;
+			name = Headers;
+		};
+		20286C36FDCF999611CA2CEA = {
+			buildActionMask = 2147483647;
+			files = (
+				0867D6ACFE840B52C02AAC07,
+				00F6FCE9001FB1F8A6466313,
+			);
+			isa = PBXResourcesBuildPhase;
+			name = "Bundle Resources";
+		};
+		20286C38FDCF999611CA2CEA = {
+			buildActionMask = 2147483647;
+			files = (
+				00F6FCEA001FB1F8A6466313,
+				00F6FCEB001FB1F8A6466313,
+				00F6FCEC001FB1F8A6466313,
+				00F6FCED001FB1F8A6466313,
+				00F6FCEE001FB1F8A6466313,
+			);
+			isa = PBXSourcesBuildPhase;
+			name = Sources;
+		};
+		20286C3BFDCF999611CA2CEA = {
+			buildActionMask = 2147483647;
+			files = (
+				20286C3CFDCF999611CA2CEA,
+				0249A66AFF388E3911CA2CEA,
+				00F6FCF4001FB24CA6466313,
+			);
+			isa = PBXFrameworksBuildPhase;
+			name = "Frameworks & Libraries";
+		};
+		20286C3CFDCF999611CA2CEA = {
+			fileRef = 20286C33FDCF999611CA2CEA;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+	};
+	rootObject = 20286C28FDCF999611CA2CEA;
+}

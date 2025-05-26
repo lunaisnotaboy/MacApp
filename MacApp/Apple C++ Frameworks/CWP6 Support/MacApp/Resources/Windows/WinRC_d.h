@@ -1,0 +1,1 @@
+#define qDebug 1#include "ResourcePrefix.h"#include "windows.h"#include "WinRCMenuIDs.h"

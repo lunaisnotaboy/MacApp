@@ -1,0 +1,1 @@
+/*	File:		MemHooks.h	Contains:	Memory manager hook classes for debugging	Copyright:	© 1993-2001 by Apple Computer, Inc., all rights reserved.*//*	Change History		01/02/01	Update copyright.		03/24/99	Update copyright notice.		03/11/99	Fix change history.*/#ifndef _MEMHOOKS_#define _MEMHOOKS_#endif /*_MEMHOOKS_*/
