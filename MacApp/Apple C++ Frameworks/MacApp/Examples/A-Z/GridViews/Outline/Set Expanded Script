@@ -1,1 +1,1 @@
-tell application "Outline68K_nd"	set the expanded of item 1 in container 1 of document "sample" to trueend tell
+tell application "Outline68K_nd"	set the expanded of item 1 in container 1 of document "sample" to trueend tell

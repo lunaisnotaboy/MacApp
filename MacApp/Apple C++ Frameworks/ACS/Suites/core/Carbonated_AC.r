@@ -1,1 +1,1 @@
-// Carbonated_AC.r// Copyright © 2000-2001 by Apple Computer, Inc. All rights reserved.// Contains:	"Carbon" resource/*	Change History:		01/18/00	Moved into ACS. 		05/15/00	Split out from MacApp.r. */data 'carb' (0, "Carbonated"){};
+// Carbonated_AC.r// Copyright © 2000-2001 by Apple Computer, Inc. All rights reserved.// Contains:	"Carbon" resource/*	Change History:		01/18/00	Moved into ACS. 		05/15/00	Split out from MacApp.r. */data 'carb' (0, "Carbonated"){};
